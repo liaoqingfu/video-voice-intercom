@@ -1,0 +1,1742 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Linphone 0.9.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-07 10:59+0100\n"
+"PO-Revision-Date: 2002-10-15 HO:MI+ZONE\n"
+"Last-Translator: Nelson Benitez <gnelson@inMail.sk>\n"
+"Language-Team: es <es@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../gtk/support.c:49 ../gtk/support.c:73 ../gtk/support.c:102
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr "No se pudo encontrar el archivo pixmap: %s"
+
+#: ../gtk/chat.c:27
+#, c-format
+msgid "Chat with %s"
+msgstr ""
+
+#: ../gtk/main.c:74
+msgid "log to stdout some debug information while running."
+msgstr ""
+
+#: ../gtk/main.c:81
+msgid "Start only in the system tray, do not show the main interface."
+msgstr ""
+
+#: ../gtk/main.c:88
+msgid "address to call right now"
+msgstr ""
+
+#: ../gtk/main.c:95
+msgid "if set automatically answer incoming calls"
+msgstr ""
+
+#: ../gtk/main.c:103
+msgid ""
+"Specifiy a working directory (should be the base of the installation, eg: c:"
+"\\Program Files\\Linphone)"
+msgstr ""
+
+#: ../gtk/main.c:479
+#, c-format
+msgid "Call with %s"
+msgstr ""
+
+#: ../gtk/main.c:862
+#, c-format
+msgid ""
+"%s would like to add you to his contact list.\n"
+"Would you allow him to see your presence status or add him to your contact "
+"list ?\n"
+"If you answer no, this person will be temporarily blacklisted."
+msgstr ""
+
+#: ../gtk/main.c:940
+#, c-format
+msgid ""
+"Please enter your password for username <i>%s</i>\n"
+" at domain <i>%s</i>:"
+msgstr ""
+
+#: ../gtk/main.c:1076
+msgid "Website link"
+msgstr ""
+
+#: ../gtk/main.c:1112
+msgid "Linphone - a video internet phone"
+msgstr ""
+
+#: ../gtk/main.c:1131
+#, c-format
+msgid "%s (Default)"
+msgstr ""
+
+#: ../gtk/main.c:1382
+msgid ""
+"No sound cards have been detected on this computer.\n"
+"You won't be able to send or receive audio calls."
+msgstr ""
+
+#: ../gtk/main.c:1441
+msgid "A free SIP video-phone"
+msgstr ""
+
+#: ../gtk/friendlist.c:192 ../gtk/propertybox.c:271
+msgid "Name"
+msgstr "Nombre"
+
+#: ../gtk/friendlist.c:205
+#, fuzzy
+msgid "Presence status"
+msgstr "Estado"
+
+#: ../gtk/friendlist.c:242
+#, c-format
+msgid "Search in %s directory"
+msgstr ""
+
+#: ../gtk/friendlist.c:450
+msgid "Invalid sip contact !"
+msgstr ""
+
+#: ../gtk/friendlist.c:495
+#, c-format
+msgid "Call %s"
+msgstr ""
+
+#: ../gtk/friendlist.c:496
+#, c-format
+msgid "Send text to %s"
+msgstr ""
+
+#: ../gtk/friendlist.c:497
+#, fuzzy, c-format
+msgid "Edit contact '%s'"
+msgstr "(Ninguna informacion de contacto !)"
+
+#: ../gtk/friendlist.c:498
+#, c-format
+msgid "Delete contact '%s'"
+msgstr ""
+
+#: ../gtk/friendlist.c:540
+#, c-format
+msgid "Add new contact from %s directory"
+msgstr ""
+
+#: ../gtk/propertybox.c:277
+msgid "Rate (Hz)"
+msgstr ""
+
+#: ../gtk/propertybox.c:283
+msgid "Status"
+msgstr "Estado"
+
+#: ../gtk/propertybox.c:289
+msgid "Min bitrate (kbit/s)"
+msgstr ""
+
+#: ../gtk/propertybox.c:296
+msgid "Parameters"
+msgstr "Parametros"
+
+#: ../gtk/propertybox.c:325 ../gtk/propertybox.c:464
+msgid "Enabled"
+msgstr "Activado"
+
+#: ../gtk/propertybox.c:326 ../gtk/propertybox.c:464
+msgid "Disabled"
+msgstr "Desactivado"
+
+#: ../gtk/propertybox.c:509
+msgid "Account"
+msgstr ""
+
+#: ../gtk/propertybox.c:649
+msgid "English"
+msgstr ""
+
+#: ../gtk/propertybox.c:650
+msgid "French"
+msgstr ""
+
+#: ../gtk/propertybox.c:651
+msgid "Swedish"
+msgstr ""
+
+#: ../gtk/propertybox.c:652
+msgid "Italian"
+msgstr ""
+
+#: ../gtk/propertybox.c:653
+msgid "Spanish"
+msgstr ""
+
+#: ../gtk/propertybox.c:654
+msgid "Brazilian Portugese"
+msgstr ""
+
+#: ../gtk/propertybox.c:655
+msgid "Polish"
+msgstr ""
+
+#: ../gtk/propertybox.c:656
+msgid "German"
+msgstr ""
+
+#: ../gtk/propertybox.c:657
+msgid "Russian"
+msgstr ""
+
+#: ../gtk/propertybox.c:658
+msgid "Japanese"
+msgstr ""
+
+#: ../gtk/propertybox.c:659
+msgid "Dutch"
+msgstr ""
+
+#: ../gtk/propertybox.c:660
+msgid "Hungarian"
+msgstr ""
+
+#: ../gtk/propertybox.c:661
+msgid "Czech"
+msgstr ""
+
+#: ../gtk/propertybox.c:662
+msgid "Chinese"
+msgstr ""
+
+#: ../gtk/propertybox.c:719
+msgid ""
+"You need to restart linphone for the new language selection to take effect."
+msgstr ""
+
+#: ../gtk/update.c:80
+#, c-format
+msgid ""
+"A more recent version is availalble from %s.\n"
+"Would you like to open a browser to download it ?"
+msgstr ""
+
+#: ../gtk/update.c:91
+msgid "You are running the lastest version."
+msgstr ""
+
+#: ../gtk/buddylookup.c:85
+msgid "Firstname, Lastname"
+msgstr ""
+
+#: ../gtk/buddylookup.c:160
+msgid "Error communicating with server."
+msgstr ""
+
+#: ../gtk/buddylookup.c:164
+#, fuzzy
+msgid "Connecting..."
+msgstr "Conexion"
+
+#: ../gtk/buddylookup.c:168
+#, fuzzy
+msgid "Connected"
+msgstr "Conectado."
+
+#: ../gtk/buddylookup.c:172
+msgid "Receiving data..."
+msgstr ""
+
+#: ../gtk/buddylookup.c:180
+#, c-format
+msgid "Found %i contact"
+msgid_plural "Found %i contacts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../gtk/setupwizard.c:25
+msgid ""
+"Welcome !\n"
+"This assistant will help you to use a SIP account for your calls."
+msgstr ""
+
+#: ../gtk/setupwizard.c:34
+msgid "Create an account by choosing a username"
+msgstr ""
+
+#: ../gtk/setupwizard.c:35
+msgid "I have already an account and just want to use it"
+msgstr ""
+
+#: ../gtk/setupwizard.c:53
+msgid "Please choose a username:"
+msgstr ""
+
+#: ../gtk/setupwizard.c:54
+#, fuzzy
+msgid "Username:"
+msgstr "Manual de Usuario"
+
+#: ../gtk/setupwizard.c:92
+#, c-format
+msgid "Checking if '%s' is available..."
+msgstr ""
+
+#: ../gtk/setupwizard.c:97 ../gtk/setupwizard.c:164
+msgid "Please wait..."
+msgstr ""
+
+#: ../gtk/setupwizard.c:101
+msgid "Sorry this username already exists. Please try a new one."
+msgstr ""
+
+#: ../gtk/setupwizard.c:103 ../gtk/setupwizard.c:168
+msgid "Ok !"
+msgstr ""
+
+#: ../gtk/setupwizard.c:106 ../gtk/setupwizard.c:171
+msgid "Communication problem, please try again later."
+msgstr ""
+
+#: ../gtk/setupwizard.c:134
+msgid "Thank you. Your account is now configured and ready for use."
+msgstr ""
+
+#: ../gtk/setupwizard.c:228
+msgid "Welcome to the account setup assistant"
+msgstr ""
+
+#: ../gtk/setupwizard.c:232
+msgid "Account setup assistant"
+msgstr ""
+
+#: ../gtk/setupwizard.c:236
+msgid "Choosing a username"
+msgstr ""
+
+#: ../gtk/setupwizard.c:240
+msgid "Verifying"
+msgstr ""
+
+#: ../gtk/setupwizard.c:244
+#, fuzzy
+msgid "Confirmation"
+msgstr "Informacion"
+
+#: ../gtk/setupwizard.c:249
+msgid "Creating your account"
+msgstr ""
+
+#: ../gtk/setupwizard.c:253
+msgid "Now ready !"
+msgstr ""
+
+#: ../gtk/incall_view.c:113
+msgid "Transfer"
+msgstr ""
+
+#: ../gtk/incall_view.c:187
+#, fuzzy
+msgid "<b>Calling...</b>"
+msgstr "Contactando "
+
+#: ../gtk/incall_view.c:190 ../gtk/incall_view.c:246
+msgid "00::00::00"
+msgstr ""
+
+#: ../gtk/incall_view.c:206
+#, fuzzy
+msgid "<b>Incoming call</b>"
+msgstr "Contactando "
+
+#: ../gtk/incall_view.c:216
+msgid ""
+"Pause all calls\n"
+"and answer"
+msgstr ""
+
+#: ../gtk/incall_view.c:217
+msgid "Answer"
+msgstr ""
+
+#: ../gtk/incall_view.c:244
+#, fuzzy
+msgid "<b>In call</b>"
+msgstr "Contactando "
+
+#: ../gtk/incall_view.c:260
+#, fuzzy
+msgid "<b>Paused call</b>"
+msgstr "Contactando "
+
+#: ../gtk/incall_view.c:272
+#, c-format
+msgid "%02i::%02i::%02i"
+msgstr ""
+
+#: ../gtk/incall_view.c:288
+#, fuzzy
+msgid "<b>Call ended.</b>"
+msgstr "Llamada cancelada."
+
+#: ../gtk/incall_view.c:309
+msgid "Unmute"
+msgstr ""
+
+#: ../gtk/incall_view.c:316
+msgid "Mute"
+msgstr ""
+
+#: ../gtk/incall_view.c:340
+msgid "Resume"
+msgstr ""
+
+#: ../gtk/incall_view.c:347
+msgid "Pause"
+msgstr ""
+
+#: ../gtk/loginframe.c:93
+#, c-format
+msgid "Please enter login information for %s"
+msgstr ""
+
+#: ../coreapi/linphonecore.c:166
+#, c-format
+msgid "You have missed %i call."
+msgid_plural "You have missed %i calls."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../coreapi/linphonecore.c:207
+msgid "aborted"
+msgstr ""
+
+#: ../coreapi/linphonecore.c:210
+msgid "completed"
+msgstr ""
+
+#: ../coreapi/linphonecore.c:213
+msgid "missed"
+msgstr ""
+
+#: ../coreapi/linphonecore.c:218
+#, c-format
+msgid ""
+"%s at %s\n"
+"From: %s\n"
+"To: %s\n"
+"Status: %s\n"
+"Duration: %i mn %i sec\n"
+msgstr ""
+
+#: ../coreapi/linphonecore.c:219
+msgid "Incoming call"
+msgstr ""
+
+#: ../coreapi/linphonecore.c:219
+msgid "Outgoing call"
+msgstr ""
+
+#: ../coreapi/linphonecore.c:501
+msgid ""
+"Your machine appears to be connected to an IPv6 network. By default linphone "
+"always uses IPv4. Please update your configuration if you want to use IPv6"
+msgstr ""
+
+#: ../coreapi/linphonecore.c:994
+#, fuzzy
+msgid "Ready"
+msgstr "Preparado."
+
+#: ../coreapi/linphonecore.c:1768
+msgid "Looking for telephone number destination..."
+msgstr ""
+
+#: ../coreapi/linphonecore.c:1771
+msgid "Could not resolve this number."
+msgstr ""
+
+#: ../coreapi/linphonecore.c:1815
+#, fuzzy
+msgid ""
+"Could not parse given sip address. A sip url usually looks like sip:"
+"user@domain"
+msgstr ""
+"Direccion SIP mal escrita. Una direccion SIP es <sip:username@domainname>"
+
+#: ../coreapi/linphonecore.c:1962
+#, fuzzy
+msgid "Contacting"
+msgstr "Contactando "
+
+#: ../coreapi/linphonecore.c:1969
+#, fuzzy
+msgid "Could not call"
+msgstr "No se pudo encontrar el archivo pixmap: %s"
+
+#: ../coreapi/linphonecore.c:2076
+msgid "Sorry, you have to pause or stop the current call first !"
+msgstr ""
+
+#: ../coreapi/linphonecore.c:2081
+msgid "Sorry, we have reached the maximum number of simultaneous calls"
+msgstr ""
+
+#: ../coreapi/linphonecore.c:2205
+msgid "Modifying call parameters..."
+msgstr ""
+
+#: ../coreapi/linphonecore.c:2308
+msgid "Connected."
+msgstr "Conectado."
+
+#: ../coreapi/linphonecore.c:2331
+#, fuzzy
+msgid "Call aborted"
+msgstr "Llamada cancelada."
+
+#: ../coreapi/linphonecore.c:2371
+#, fuzzy
+msgid "Call ended"
+msgstr "Llamada cancelada."
+
+#: ../coreapi/linphonecore.c:2453
+msgid "Could not pause the call"
+msgstr ""
+
+#: ../coreapi/linphonecore.c:2457
+msgid "Pausing the current call..."
+msgstr ""
+
+#: ../coreapi/linphonecore.c:2496
+msgid "There is already a call in process, pause or stop it first."
+msgstr ""
+
+#: ../coreapi/misc.c:147
+msgid ""
+"Your computer appears to be using ALSA sound drivers.\n"
+"This is the best choice. However the pcm oss emulation module\n"
+"is missing and linphone needs it. Please execute\n"
+"'modprobe snd-pcm-oss' as root to load it."
+msgstr ""
+"Tu ordenador parece estar usando los controladores de ALSA.\n"
+"Esa es la mejor eleccion. Sin embargo el modulo de emulacion pcm de OSS\n"
+"no se encuentra y linphone lo necesita. Por favor ejecute\n"
+"'modprobe snd-pcm-oss' como root para cargarlo."
+
+#: ../coreapi/misc.c:150
+msgid ""
+"Your computer appears to be using ALSA sound drivers.\n"
+"This is the best choice. However the mixer oss emulation module\n"
+"is missing and linphone needs it. Please execute\n"
+" 'modprobe snd-mixer-oss' as root to load it."
+msgstr ""
+"Tu ordenador parece estar usando los controladores de ALSA.\n"
+"Esa es la mejor eleccion. Sin embargo el modulo de emulacion mixer de OSS\n"
+"no se encuentra y linphone lo necesita. Por favor ejecute\n"
+" 'modprobe snd-mixer-oss' como root para cargarlo."
+
+#: ../coreapi/misc.c:520
+msgid "Stun lookup in progress..."
+msgstr ""
+
+#: ../coreapi/friend.c:33
+#, fuzzy
+msgid "Online"
+msgstr "linea"
+
+#: ../coreapi/friend.c:36
+msgid "Busy"
+msgstr ""
+
+#: ../coreapi/friend.c:39
+msgid "Be right back"
+msgstr ""
+
+#: ../coreapi/friend.c:42
+msgid "Away"
+msgstr "Ausente"
+
+#: ../coreapi/friend.c:45
+#, fuzzy
+msgid "On the phone"
+msgstr "linphone"
+
+#: ../coreapi/friend.c:48
+msgid "Out to lunch"
+msgstr ""
+
+#: ../coreapi/friend.c:51
+msgid "Do not disturb"
+msgstr "No molestar"
+
+#: ../coreapi/friend.c:54
+#, fuzzy
+msgid "Moved"
+msgstr "Codecs"
+
+#: ../coreapi/friend.c:57
+msgid "Using another messaging service"
+msgstr ""
+
+#: ../coreapi/friend.c:60
+#, fuzzy
+msgid "Offline"
+msgstr "linea"
+
+#: ../coreapi/friend.c:63
+msgid "Pending"
+msgstr ""
+
+#: ../coreapi/friend.c:66
+msgid "Unknown-bug"
+msgstr ""
+
+#: ../coreapi/proxy.c:187
+msgid ""
+"The sip proxy address you entered is invalid, it must start with \"sip:\" "
+"followed by a hostname."
+msgstr ""
+
+#: ../coreapi/proxy.c:193
+msgid ""
+"The sip identity you entered is invalid.\n"
+"It should look like sip:username@proxydomain, such as sip:alice@example.net"
+msgstr ""
+
+#: ../coreapi/proxy.c:670
+#, fuzzy, c-format
+msgid "Could not login as %s"
+msgstr "No se pudo encontrar el archivo pixmap: %s"
+
+#: ../coreapi/callbacks.c:170
+#, fuzzy
+msgid "is contacting you"
+msgstr "le esta llamando."
+
+#: ../coreapi/callbacks.c:171
+msgid " and asked autoanswer."
+msgstr ""
+
+#: ../coreapi/callbacks.c:171
+msgid "."
+msgstr ""
+
+#: ../coreapi/callbacks.c:226
+#, fuzzy
+msgid "Remote ringing."
+msgstr "Registrando..."
+
+#: ../coreapi/callbacks.c:251
+msgid "Early media."
+msgstr ""
+
+#: ../coreapi/callbacks.c:289
+#, c-format
+msgid "Call with %s is paused."
+msgstr ""
+
+#: ../coreapi/callbacks.c:300
+#, c-format
+msgid "Call answered by %s - on hold."
+msgstr ""
+
+#: ../coreapi/callbacks.c:315
+#, fuzzy
+msgid "Call resumed."
+msgstr "Llamada cancelada."
+
+#: ../coreapi/callbacks.c:320
+#, fuzzy, c-format
+msgid "Call answered by %s."
+msgstr ""
+"Llamar o\n"
+"Responder"
+
+#: ../coreapi/callbacks.c:381
+msgid "We are being paused..."
+msgstr ""
+
+#: ../coreapi/callbacks.c:385
+msgid "We have been resumed..."
+msgstr ""
+
+#: ../coreapi/callbacks.c:422
+#, fuzzy
+msgid "Call terminated."
+msgstr "Llamada cancelada."
+
+#: ../coreapi/callbacks.c:429
+msgid "User is busy."
+msgstr "El usuario esta ocupado."
+
+#: ../coreapi/callbacks.c:430
+msgid "User is temporarily unavailable."
+msgstr "El usuario le dice que volvera enseguida."
+
+#. char *retrymsg=_("%s. Retry after %i minute(s).");
+#: ../coreapi/callbacks.c:432
+msgid "User does not want to be disturbed."
+msgstr "El usuario no quiere que lo molesten."
+
+#: ../coreapi/callbacks.c:433
+msgid "Call declined."
+msgstr "Llamada cancelada."
+
+#: ../coreapi/callbacks.c:445
+msgid "No response."
+msgstr ""
+
+#: ../coreapi/callbacks.c:449
+msgid "Protocol error."
+msgstr ""
+
+#: ../coreapi/callbacks.c:465
+msgid "Redirected"
+msgstr ""
+
+#: ../coreapi/callbacks.c:475
+msgid "Not found"
+msgstr ""
+
+#: ../coreapi/callbacks.c:485
+msgid "No common codecs"
+msgstr ""
+
+#: ../coreapi/callbacks.c:491
+#, fuzzy
+msgid "Call failed."
+msgstr "Llamada cancelada."
+
+#: ../coreapi/callbacks.c:527
+#, fuzzy
+msgid "Authentication failure"
+msgstr "Informacion de codec"
+
+#: ../coreapi/callbacks.c:553
+#, fuzzy, c-format
+msgid "Registration on %s successful."
+msgstr "Se ha registrado con exito."
+
+#: ../coreapi/callbacks.c:554
+#, fuzzy, c-format
+msgid "Unregistration on %s done."
+msgstr "Se ha registrado con exito."
+
+#: ../coreapi/callbacks.c:570
+msgid "no response timeout"
+msgstr ""
+
+#: ../coreapi/callbacks.c:573
+#, fuzzy, c-format
+msgid "Registration on %s failed: %s"
+msgstr "Se ha registrado con exito."
+
+#: ../coreapi/callbacks.c:615
+#, c-format
+msgid "We are transferred to %s"
+msgstr ""
+
+#: ../mediastreamer2/src/alaw.c:144 ../mediastreamer2/src/alaw.c:162
+msgid "ITU-G.711 alaw encoder"
+msgstr ""
+
+#: ../mediastreamer2/src/alaw.c:194 ../mediastreamer2/src/alaw.c:211
+msgid "ITU-G.711 alaw decoder"
+msgstr ""
+
+#: ../mediastreamer2/src/alsa.c:950
+msgid "Alsa sound source"
+msgstr ""
+
+#: ../mediastreamer2/src/alsa.c:1054
+msgid "Alsa sound output"
+msgstr ""
+
+#: ../mediastreamer2/src/aqsnd.c:1008
+msgid "Sound capture filter for MacOS X Audio Queue Service"
+msgstr ""
+
+#: ../mediastreamer2/src/aqsnd.c:1032
+msgid "Sound playback filter for MacOS X Audio Queue Service"
+msgstr ""
+
+#: ../mediastreamer2/src/dtmfgen.c:274 ../mediastreamer2/src/dtmfgen.c:293
+msgid "DTMF generator"
+msgstr ""
+
+#: ../mediastreamer2/src/gsm.c:120 ../mediastreamer2/src/gsm.c:138
+msgid "The GSM full-rate codec"
+msgstr ""
+
+#: ../mediastreamer2/src/gsm.c:187 ../mediastreamer2/src/gsm.c:205
+msgid "The GSM codec"
+msgstr ""
+
+#: ../mediastreamer2/src/macsnd.c:1083
+msgid "Sound capture filter for MacOS X Core Audio drivers"
+msgstr ""
+
+#: ../mediastreamer2/src/macsnd.c:1098
+msgid "Sound playback filter for MacOS X Core Audio drivers"
+msgstr ""
+
+#: ../mediastreamer2/src/msconf.c:787 ../mediastreamer2/src/msconf.c:805
+msgid "A filter to make conferencing"
+msgstr ""
+
+#: ../mediastreamer2/src/msfileplayer.c:311
+#: ../mediastreamer2/src/msfileplayer.c:329
+msgid "Raw files and wav reader"
+msgstr ""
+
+#: ../mediastreamer2/src/msfilerec.c:170 ../mediastreamer2/src/msfilerec.c:188
+#: ../mediastreamer2/src/msfilerec_win.c:216
+#: ../mediastreamer2/src/msfilerec_win.c:234
+msgid "Wav file recorder"
+msgstr ""
+
+#: ../mediastreamer2/src/msjoin.c:45 ../mediastreamer2/src/msjoin.c:63
+msgid "A filter that send several inputs to one output."
+msgstr ""
+
+#: ../mediastreamer2/src/msresample.c:159
+#: ../mediastreamer2/src/msresample.c:177
+msgid "Audio resampler"
+msgstr ""
+
+#: ../mediastreamer2/src/msrtp.c:369 ../mediastreamer2/src/msrtp.c:387
+msgid "RTP output filter"
+msgstr ""
+
+#: ../mediastreamer2/src/msrtp.c:505 ../mediastreamer2/src/msrtp.c:523
+msgid "RTP input filter"
+msgstr ""
+
+#: ../mediastreamer2/src/msspeex.c:360 ../mediastreamer2/src/msspeex.c:378
+#: ../mediastreamer2/src/msspeex.c:548 ../mediastreamer2/src/msspeex.c:567
+msgid "The free and wonderful speex codec"
+msgstr ""
+
+#: ../mediastreamer2/src/msvolume.c:527 ../mediastreamer2/src/msvolume.c:542
+msgid "A filter that controls and measure sound volume"
+msgstr ""
+
+#: ../mediastreamer2/src/msv4l.c:1012
+msgid "A video4linux compatible source filter to stream pictures."
+msgstr ""
+
+#: ../mediastreamer2/src/msv4l2.c:554
+msgid "A filter to grab pictures from Video4Linux2-powered cameras"
+msgstr ""
+
+#: ../mediastreamer2/src/nowebcam.c:1854
+msgid "A filter that outputs a static image."
+msgstr ""
+
+#: ../mediastreamer2/src/pixconv.c:129 ../mediastreamer2/src/pixconv.c:147
+msgid "A pixel format converter"
+msgstr ""
+
+#: ../mediastreamer2/src/sizeconv.c:202
+msgid "A video size converter"
+msgstr ""
+
+#: ../mediastreamer2/src/sizeconv.c:220
+msgid "a small video size converter"
+msgstr ""
+
+#: ../mediastreamer2/src/speexec.c:276 ../mediastreamer2/src/speexec.c:294
+msgid "Echo canceller using speex library"
+msgstr ""
+
+#: ../mediastreamer2/src/tee.c:80 ../mediastreamer2/src/tee.c:98
+msgid "A filter that reads from input and copy to its multiple outputs."
+msgstr ""
+
+#: ../mediastreamer2/src/theora.c:375
+msgid "The theora video encoder from xiph.org"
+msgstr ""
+
+#: ../mediastreamer2/src/theora.c:393
+msgid "The open-source and royalty-free 'theora' video codec from xiph.org"
+msgstr ""
+
+#: ../mediastreamer2/src/theora.c:561 ../mediastreamer2/src/theora.c:579
+msgid "The theora video decoder from xiph.org"
+msgstr ""
+
+#: ../mediastreamer2/src/ulaw.c:146 ../mediastreamer2/src/ulaw.c:164
+msgid "ITU-G.711 ulaw encoder"
+msgstr ""
+
+#: ../mediastreamer2/src/ulaw.c:196 ../mediastreamer2/src/ulaw.c:214
+msgid "ITU-G.711 ulaw decoder"
+msgstr ""
+
+#: ../mediastreamer2/src/videodec.c:713 ../mediastreamer2/src/videodec.c:729
+#: ../mediastreamer2/src/videodec.c:812 ../mediastreamer2/src/videodec.c:828
+msgid "A H.263 decoder using ffmpeg library"
+msgstr ""
+
+#: ../mediastreamer2/src/videodec.c:746
+msgid "A MPEG4 decoder using ffmpeg library"
+msgstr ""
+
+#: ../mediastreamer2/src/videodec.c:762
+msgid "A RTP/JPEG decoder using ffmpeg library"
+msgstr ""
+
+#: ../mediastreamer2/src/videodec.c:778
+msgid "A MJPEG decoder using ffmpeg library"
+msgstr ""
+
+#: ../mediastreamer2/src/videodec.c:794
+msgid "A snow decoder using ffmpeg library"
+msgstr ""
+
+#: ../mediastreamer2/src/videoenc.c:908 ../mediastreamer2/src/videoenc.c:990
+msgid "A video H.263 encoder using ffmpeg library."
+msgstr ""
+
+#: ../mediastreamer2/src/videoenc.c:924
+msgid ""
+"A video H.263 encoder using ffmpeg library. It is compliant with old RFC2190 "
+"spec."
+msgstr ""
+
+#: ../mediastreamer2/src/videoenc.c:940 ../mediastreamer2/src/videoenc.c:1022
+msgid "A video MPEG4 encoder using ffmpeg library."
+msgstr ""
+
+#: ../mediastreamer2/src/videoenc.c:956
+msgid "A video snow encoder using ffmpeg library."
+msgstr ""
+
+#: ../mediastreamer2/src/videoenc.c:972
+msgid "A RTP/MJPEG encoder using ffmpeg library."
+msgstr ""
+
+#: ../mediastreamer2/src/videoenc.c:1006
+msgid ""
+"A video H.263 encoder using ffmpeg library, compliant with old RFC2190 spec."
+msgstr ""
+
+#: ../mediastreamer2/src/videoenc.c:1038
+msgid ""
+"The snow codec is royalty-free and is open-source. \n"
+"It uses innovative techniques that makes it one of most promising video "
+"codec. It is implemented within the ffmpeg project.\n"
+"However it is under development, quite unstable and compatibility with other "
+"versions cannot be guaranteed."
+msgstr ""
+
+#: ../mediastreamer2/src/videoenc.c:1058
+msgid "A MJPEG encoder using ffmpeg library."
+msgstr ""
+
+#: ../mediastreamer2/src/videoout.c:933
+msgid "A SDL-based video display"
+msgstr ""
+
+#: ../mediastreamer2/src/wincevideods.c:969
+#: ../mediastreamer2/src/wincevideods.c:987
+#: ../mediastreamer2/src/winvideo.c:596 ../mediastreamer2/src/winvideo.c:614
+#: ../mediastreamer2/src/winvideods.c:1385
+#: ../mediastreamer2/src/winvideods.c:1403
+msgid "A video4windows compatible source filter to stream pictures."
+msgstr ""
+
+#: ../mediastreamer2/src/winvideo2.c:436 ../mediastreamer2/src/winvideo2.c:454
+msgid "A video for windows (vfw.h) based source filter to grab pictures."
+msgstr ""
+
+#: ../mediastreamer2/src/ice.c:1349 ../mediastreamer2/src/ice.c:1367
+msgid "ICE filter"
+msgstr ""
+
+#: ../mediastreamer2/src/void.c:35 ../mediastreamer2/src/void.c:52
+msgid "A filter that trashes its input (useful for terminating some graphs)."
+msgstr ""
+
+#: ../mediastreamer2/src/equalizer.c:338 ../mediastreamer2/src/equalizer.c:356
+msgid "Parametric sound equalizer."
+msgstr ""
+
+#: ../mediastreamer2/src/msdscap-mingw.cc:1038
+msgid "A webcam grabber based on directshow."
+msgstr ""
+
+#: ../mediastreamer2/src/drawdib-display.c:552
+#: ../mediastreamer2/src/drawdib-display.c:570
+msgid "A video display based on windows DrawDib api"
+msgstr ""
+
+#: ../mediastreamer2/src/audiomixer.c:192
+#: ../mediastreamer2/src/audiomixer.c:211
+msgid "A filter that mixes down 16 bit sample audio streams"
+msgstr ""
+
+#: ../mediastreamer2/src/chanadapt.c:110 ../mediastreamer2/src/chanadapt.c:128
+msgid "A filter that converts from mono to stereo and vice versa."
+msgstr ""
+
+#: ../mediastreamer2/src/itc.c:97 ../mediastreamer2/src/itc.c:115
+#: ../mediastreamer2/src/itc.c:197 ../mediastreamer2/src/itc.c:215
+msgid "Inter ticker communication filter."
+msgstr ""
+
+#: ../mediastreamer2/src/extdisplay.c:62 ../mediastreamer2/src/extdisplay.c:79
+msgid "A display filter sending the buffers to draw to the upper layer"
+msgstr ""
+
+#: ../mediastreamer2/src/msiounit.c:619
+msgid "Sound capture filter for MacOS X Audio Unit Service"
+msgstr ""
+
+#: ../mediastreamer2/src/msiounit.c:633
+msgid "Sound playback filter for MacOS X Audio Unit Service"
+msgstr ""
+
+#: ../mediastreamer2/src/x11video.c:562
+msgid "A video display using X11+Xv"
+msgstr ""
+
+#. .id=
+#. .name=
+#. .text=
+#: ../mediastreamer2/src/msandroid.cpp:370
+msgid "Sound capture filter for Android"
+msgstr ""
+
+#. .id=
+#. .name=
+#. .text=
+#: ../mediastreamer2/src/msandroid.cpp:667
+msgid "Sound playback filter for Android"
+msgstr ""
+
+#: ../mediastreamer2/src/msandroidvideo.cpp:134
+msgid "A filter that captures Android video."
+msgstr ""
+
+#~ msgid "#"
+#~ msgstr "#"
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgid "5"
+#~ msgstr "10"
+
+#~ msgid "6"
+#~ msgstr "6"
+
+#~ msgid "7"
+#~ msgstr "7"
+
+#~ msgid "8"
+#~ msgstr "8"
+
+#~ msgid "9"
+#~ msgstr "9"
+
+#, fuzzy
+#~ msgid "<b>Add contacts from directory</b>"
+#~ msgstr "Informacion de codec"
+
+#, fuzzy
+#~ msgid "<b>Contact list</b>"
+#~ msgstr "Contactando "
+
+#, fuzzy
+#~ msgid "<b>Welcome !</b>"
+#~ msgstr "Contactando "
+
+#, fuzzy
+#~ msgid "Audio & Video"
+#~ msgstr "Propiedades del codec de Audio"
+
+#, fuzzy
+#~ msgid "Audio only"
+#~ msgstr "Propiedades del codec de Audio"
+
+#, fuzzy
+#~ msgid "Contacts"
+#~ msgstr "Contactando "
+
+#, fuzzy
+#~ msgid "Duration"
+#~ msgstr "Informacion"
+
+#, fuzzy
+#~ msgid "Duration:"
+#~ msgstr "Informacion"
+
+#, fuzzy
+#~ msgid "Enable self-view"
+#~ msgstr "Activado"
+
+#, fuzzy
+#~ msgid "Login information"
+#~ msgstr "Informacion de codec"
+
+#, fuzzy
+#~ msgid "My current identity:"
+#~ msgstr "Identidad"
+
+#, fuzzy
+#~ msgid "Password"
+#~ msgstr "Tu Contraseña:"
+
+#, fuzzy
+#~ msgid "SIP address or phone number:"
+#~ msgstr "La direccion SIP del servidor de registro."
+
+#, fuzzy
+#~ msgid "Username"
+#~ msgstr "Manual de Usuario"
+
+#, fuzzy
+#~ msgid "_Linphone"
+#~ msgstr "linphone"
+
+#, fuzzy
+#~ msgid "_Modes"
+#~ msgstr "Codecs"
+
+#, fuzzy
+#~ msgid "About linphone"
+#~ msgstr "linphone"
+
+#, fuzzy
+#~ msgid "<b>Contact information</b>"
+#~ msgstr "Informacion de codec"
+
+#, fuzzy
+#~ msgid "SIP Address"
+#~ msgstr "Direccion"
+
+#, fuzzy
+#~ msgid "Linphone debug window"
+#~ msgstr "Linphone esta terminando..."
+
+#, fuzzy
+#~ msgid "Password:"
+#~ msgstr "Tu Contraseña:"
+
+#, fuzzy
+#~ msgid "Publish presence information"
+#~ msgstr "Informacion de codec"
+
+#, fuzzy
+#~ msgid "Registration duration (sec):"
+#~ msgstr "Se ha registrado con exito."
+
+#, fuzzy
+#~ msgid "SIP Proxy address:"
+#~ msgstr "Direccion SIP"
+
+#, fuzzy
+#~ msgid "Your SIP identity:"
+#~ msgstr "Identidad"
+
+#~ msgid "sip:"
+#~ msgstr "SIP:"
+
+#, fuzzy
+#~ msgid "Send"
+#~ msgstr "Sonido"
+
+#, fuzzy
+#~ msgid "Decline"
+#~ msgstr "linea"
+
+#, fuzzy
+#~ msgid "<b>Audio</b>"
+#~ msgstr "Contactando "
+
+#, fuzzy
+#~ msgid "<b>Codecs</b>"
+#~ msgstr "Contactando "
+
+#, fuzzy
+#~ msgid "<b>Level</b>"
+#~ msgstr "Contactando "
+
+#, fuzzy
+#~ msgid "<b>Ports</b>"
+#~ msgstr "Contactando "
+
+#, fuzzy
+#~ msgid "<b>Proxy accounts</b>"
+#~ msgstr "Contactando "
+
+#, fuzzy
+#~ msgid "<b>Transport</b>"
+#~ msgstr "Contactando "
+
+#~ msgid "Add"
+#~ msgstr "Añadir"
+
+#, fuzzy
+#~ msgid ""
+#~ "Audio codecs\n"
+#~ "Video codecs"
+#~ msgstr "Propiedades del codec de Audio"
+
+#, fuzzy
+#~ msgid "Capture device:"
+#~ msgstr "Usar dispositivo de sonido:"
+
+#, fuzzy
+#~ msgid "Codecs"
+#~ msgstr "Codecs"
+
+#~ msgid "Disable"
+#~ msgstr "Desactivado"
+
+#, fuzzy
+#~ msgid "Done"
+#~ msgstr "Ninguno."
+
+#~ msgid "Enable"
+#~ msgstr "Activado"
+
+#, fuzzy
+#~ msgid "Network settings"
+#~ msgstr "Red"
+
+#, fuzzy
+#~ msgid "Playback device:"
+#~ msgstr "Usar dispositivo de sonido:"
+
+#, fuzzy
+#~ msgid "Public IP address:"
+#~ msgstr "Direccion SIP"
+
+#~ msgid "Remove"
+#~ msgstr "Borrar"
+
+#, fuzzy
+#~ msgid "Ring device:"
+#~ msgstr "Usar dispositivo de sonido:"
+
+#, fuzzy
+#~ msgid "Ring sound:"
+#~ msgstr "Fuente de grabacion:"
+
+#, fuzzy
+#~ msgid "Stun server:"
+#~ msgstr "Servidor de Redireccionamiento"
+
+#, fuzzy
+#~ msgid "User interface"
+#~ msgstr "Manual de Usuario"
+
+#, fuzzy
+#~ msgid "Video input device:"
+#~ msgstr "Usar dispositivo de sonido:"
+
+#, fuzzy
+#~ msgid "Your resulting SIP address:"
+#~ msgstr "Tu direccion SIP:"
+
+#, fuzzy
+#~ msgid "Linphone"
+#~ msgstr "linphone"
+
+#, fuzzy
+#~ msgid "Request Cancelled."
+#~ msgstr "Llamada cancelada."
+
+#~ msgid "User cannot be found at given address."
+#~ msgstr "No se encontro ningun usuario en la direccion indicada."
+
+#~ msgid "Remote user cannot support any of proposed codecs."
+#~ msgstr "El usuario remoto no soporta ninguno de los codecs propuestos."
+
+#~ msgid "Timeout."
+#~ msgstr "Tiempo agotado."
+
+#~ msgid "Remote host was found but refused connection."
+#~ msgstr "Se encontro host remoto pero rechazo la conexion."
+
+#~ msgid ""
+#~ "User is not reachable at the moment but he invites you\n"
+#~ "to contact him using the following alternate resource:"
+#~ msgstr ""
+#~ "Usuario no disponible en este momento pero le invita\n"
+#~ "a contactarle usando el siguiente recurso alternativo:"
+
+#, fuzzy
+#~ msgid "Gone"
+#~ msgstr "Ninguno."
+
+#, fuzzy
+#~ msgid "gtk-connect"
+#~ msgstr "Conectado."
+
+#, fuzzy
+#~ msgid "SIP address"
+#~ msgstr "Direccion"
+
+#, fuzzy
+#~ msgid "Display filters"
+#~ msgstr "Nombre a mostrar:"
+
+#, fuzzy
+#~ msgid "_Properties"
+#~ msgstr "Propiedades de RTP"
+
+#, fuzzy
+#~ msgid "gtk-remove"
+#~ msgstr "Borrar"
+
+#, fuzzy
+#~ msgid "Proxy in use"
+#~ msgstr "Servidor Proxy"
+
+#~ msgid "Sound"
+#~ msgstr "Sonido"
+
+#, fuzzy
+#~ msgid "Default identity"
+#~ msgstr "Identidad"
+
+#, fuzzy
+#~ msgid "Proxy accounts"
+#~ msgstr "Servidor Proxy"
+
+#~ msgid "Address book"
+#~ msgstr "Agenda"
+
+#, fuzzy
+#~ msgid "Shows the address book"
+#~ msgstr "Muestra la Agenda"
+
+#~ msgid "Show more..."
+#~ msgstr "Mostrar mas..."
+
+#~ msgid "Playback level:"
+#~ msgstr "Nivel de reproduccion:"
+
+#~ msgid "Recording level:"
+#~ msgstr "Nivel de Grabacion:"
+
+#, fuzzy
+#~ msgid "Ring level:"
+#~ msgstr "Nivel de Grabacion:"
+
+#~ msgid "Reachable"
+#~ msgstr "Disponible"
+
+#~ msgid "Busy, I'll be back in "
+#~ msgstr "Ocupado, estare de vuelta en "
+
+#~ msgid "The other party will be informed that you'll be back in X minutes"
+#~ msgstr ""
+#~ "Se le comunicara a la otra persona que estaras de vuelta en X minutos"
+
+#~ msgid "mn"
+#~ msgstr "min"
+
+#~ msgid "Moved temporarily"
+#~ msgstr "Vengo enseguida"
+
+#~ msgid "Alternative service"
+#~ msgstr "Servicio alternativo"
+
+#~ msgid "URL:"
+#~ msgstr "URL:"
+
+#~ msgid "Presence"
+#~ msgstr "Estado"
+
+#~ msgid "Press digits to send DTMFs."
+#~ msgstr "Pulsa los digitos para mandar DTMFs."
+
+#~ msgid "DTMF"
+#~ msgstr "DTMF"
+
+#~ msgid ""
+#~ "Linphone is a web-phone.\n"
+#~ "It is compatible with SIP and RTP protocols."
+#~ msgstr ""
+#~ "Linphone es un telefono para Internet.\n"
+#~ "Es compatible con los protocolos SIP y RTP."
+
+#, fuzzy
+#~ msgid "Use IPv6 network (if available)"
+#~ msgstr "El usuario le dice que volvera enseguida."
+
+#, fuzzy
+#~ msgid ""
+#~ "These options is only for users in a private network, behind a gateway. "
+#~ "If you are not in this situation, then leave this empty."
+#~ msgstr ""
+#~ "Esta opcion es solo para usuarios en una red privada, detras de un "
+#~ "cortafuegos. Siese no es tu caso, deja esto vacio."
+
+#, fuzzy
+#~ msgid "NAT traversal options (experimental)"
+#~ msgstr "Opciones para NAT transversal (experimental)"
+
+#, fuzzy
+#~ msgid "Number of buffered miliseconds (jitter compensation):"
+#~ msgstr "Numero de milisegundos en el buffer(compensacion jitter):"
+
+#~ msgid "RTP port used for audio:"
+#~ msgstr "Puerto RTP usado para audio:"
+
+#~ msgid "micro"
+#~ msgstr "microfono"
+
+#~ msgid "Recording source:"
+#~ msgstr "Fuente de grabacion:"
+
+#~ msgid "Sound properties"
+#~ msgstr "Propiedades de sonido"
+
+#~ msgid "Run sip user agent on port:"
+#~ msgstr "Ejecutar SIP user agent en el puerto:"
+
+#~ msgid "It is strongly recommended to use port 5060."
+#~ msgstr "Se recomienda encarecidamente usar el puerto 5060."
+
+#~ msgid "SIP port"
+#~ msgstr "Puerto SIP"
+
+#~ msgid "@"
+#~ msgstr "@"
+
+#~ msgid "Identity"
+#~ msgstr "Identidad"
+
+#, fuzzy
+#~ msgid "Add proxy/registrar"
+#~ msgstr "Usar el registro SIP"
+
+#~ msgid "Remote services"
+#~ msgstr "Servicios Remotos:"
+
+#~ msgid "SIP"
+#~ msgstr "SIP"
+
+#~ msgid "List of audio codecs, in order of preference:"
+#~ msgstr "Lista de codecs de audio, en orden de preferencia:"
+
+#, fuzzy
+#~ msgid "Video Codecs"
+#~ msgstr "Propiedades del codec de Audio"
+
+#~ msgid ""
+#~ "Note: Codecs in red are not usable regarding to your connection type to "
+#~ "the internet."
+#~ msgstr ""
+#~ "Nota: Los codecs en ROJO no son adecuados para tu conexion a internet."
+
+#, fuzzy
+#~ msgid "No information availlable"
+#~ msgstr "Informacion no disponible"
+
+#, fuzzy
+#~ msgid "Codec information"
+#~ msgstr "Informacion de codec"
+
+#~ msgid "Address Book"
+#~ msgstr "Agenda"
+
+#~ msgid "Select"
+#~ msgstr "Seleccionar"
+
+#~ msgid ""
+#~ "User is not reachable at the moment but he invites you to contact him "
+#~ "using the following alternate ressource:"
+#~ msgstr ""
+#~ "Usuario no disponible en este momento pero le invita a contactarle usando "
+#~ "el siguiente recurso alternativo:"
+
+#~ msgid "None."
+#~ msgstr "Ninguno."
+
+#, fuzzy
+#~ msgid "Name:"
+#~ msgstr "Nombre"
+
+#, fuzzy
+#~ msgid "None"
+#~ msgstr "Ninguno."
+
+#, fuzzy
+#~ msgid "Bad sip address: a sip address looks like sip:user@domain"
+#~ msgstr ""
+#~ "Direccion SIP mal escrita. Una direccion SIP es <sip:username@domainname>"
+
+#~ msgid "Communication ended."
+#~ msgstr "Comunicacion finalizada."
+
+#, fuzzy
+#~ msgid "Firewall 's external ip address (in dot notations):"
+#~ msgstr "Direccion IP del cortafuegos (en notacion con puntos):"
+
+#~ msgid "Index"
+#~ msgstr "Indice"
+
+#, fuzzy
+#~ msgid "Server address"
+#~ msgstr "Direccion del Servidor:"
+
+#~ msgid "28k modem"
+#~ msgstr "modem 28k"
+
+#~ msgid "56k modem"
+#~ msgstr "modem 56k"
+
+#~ msgid "64k modem (numeris)"
+#~ msgstr "modem 64k (numeris)"
+
+#~ msgid "ADSL or Cable modem"
+#~ msgstr "ADSL o Cable"
+
+#~ msgid "Ethernet or equivalent"
+#~ msgstr "Ethernet o equivalente"
+
+#~ msgid "Connection type:"
+#~ msgstr "Tipo de conexion:"
+
+#, fuzzy
+#~ msgid ""
+#~ "Linphone could not open audio device %s. Check if your sound card is "
+#~ "fully configured and working."
+#~ msgstr ""
+#~ "Linphone no pudo abrir el dispositivo de audio. Asegurese que su tarjeta "
+#~ "de sonido esta completamente configurada y operativa."
+
+#~ msgid "Type here the sip address of the person you want to call."
+#~ msgstr "Escribe aqui la direccion SIP de la persona que quieres llamar."
+
+#~ msgid ""
+#~ "Release or\n"
+#~ "Refuse"
+#~ msgstr ""
+#~ "Descolgar o\n"
+#~ "Rechazar"
+
+#~ msgid "%s. Retry after %i minute(s)."
+#~ msgstr "%s. Reintentar tras %i minutos."
+
+#, fuzzy
+#~ msgid "Timeout..."
+#~ msgstr "Tiempo agotado."
+
+#, fuzzy
+#~ msgid ""
+#~ "Add address\n"
+#~ "book"
+#~ msgstr "Agenda"
+
+#~ msgid "Toggle this if you want to be registered on a remote server."
+#~ msgstr "Marcar opcion si desea registrarse en un servidor remoto."
+
+#~ msgid "Address of record:"
+#~ msgstr "Nombre de registro:"
+
+#~ msgid ""
+#~ "The password used for registration. On some servers it is not necessary"
+#~ msgstr ""
+#~ "La contraseña usada para registrarse. En algunos servidores no es "
+#~ "necesaria"
+
+#~ msgid "Use this registrar server as outbound proxy."
+#~ msgstr "Usar el servidor de registro como outbound proxy."
+
+#~ msgid "sip address:"
+#~ msgstr "Direccion SIP:"
+
+#~ msgid "Modify"
+#~ msgstr "Modificar"
+
+#~ msgid ""
+#~ "You are currently using the i810_audio driver.\n"
+#~ "This driver is buggy and so does not work with Linphone.\n"
+#~ "We suggest that you replace it by its equivalent ALSA driver,\n"
+#~ "either with packages from your distribution, or by downloading\n"
+#~ "ALSA drivers at http://www.alsa-project.org."
+#~ msgstr ""
+#~ "Estas usando actualmente el controlador i810_audio.\n"
+#~ "Ese controlador tiene errores y por tanto no funciona con Linphone.\n"
+#~ "Le recomendamos que lo sustituya por su controlador equivalente de ALSA,\n"
+#~ "ya sea mediante paquetes de su distribucion, o descargando\n"
+#~ "controladores ALSA de http://www.alsa-project.org."
+
+#~ msgid "Unregistration successfull."
+#~ msgstr "Cancelacion del registro completada."
+
+#~ msgid "C: 2001"
+#~ msgstr "Abril 2001"
+
+#~ msgid "Select network interface to use:"
+#~ msgstr "Selecciona la interfaz de red para usar:"
+
+#~ msgid "Network interface properties"
+#~ msgstr "Propiedades de Interfaz de Red:"
+
+#~ msgid "RTP"
+#~ msgstr "RTP"
+
+#~ msgid "Threads not supported by glib. Upgrade your glib.\n"
+#~ msgstr "Threads no soportados por glib. Actualize su glib.\n"
+
+#~ msgid "Run linphone as a gnome-applet."
+#~ msgstr "Lanzar linphone como un gnome-applet."
+
+#~ msgid "Run linphone as a daemon (for use without gnome)."
+#~ msgstr "Ejecutar linphone como demonio (para uso sin gnome)."
+
+#~ msgid ""
+#~ "Cannot find network previously used interface %s.\n"
+#~ "If your computer is temporary connected to the internet, please connect "
+#~ "and then run linphone.\n"
+#~ "If you want to change your default network interface, go to the "
+#~ "parameters 'box."
+#~ msgstr ""
+#~ "No se puede encontrar la interfaz de red usada previamente %s.\n"
+#~ "Si tu ordenador esta conectado temporalmente a Internet, por favor "
+#~ "conecta y entonces ejecuta linphone.\n"
+#~ "Si quieres cambiar tu interfaz de red predeterminada, ve a la opcion "
+#~ "Parametros."
+
+#, fuzzy
+#~ msgid ""
+#~ "Linphone cannot open the audio device.\n"
+#~ "It may be caused by other programs using it.\n"
+#~ "Do you want linphone to kill these programs (esd or artsd) ?"
+#~ msgstr ""
+#~ "Linphone no puede abrir el dispositivo de audio.\n"
+#~ " Puede deberse a que otros programas lo esten usando.\n"
+#~ "¿ Quiere que Linphone cierre esos programas (esd o artsd) ?"
+
+#~ msgid "Use it as a:"
+#~ msgstr "Usarlo como un:"
+
+#~ msgid "Outbound proxy"
+#~ msgstr "Outbound proxy"
+
+#~ msgid ""
+#~ "Togle this button if the registrar must be used to proxy calls through a "
+#~ "firewall."
+#~ msgstr ""
+#~ "Marcar esta opcion si el servidor de registro debe ser usado para "
+#~ "llamadas a proxy a traves de un cortafuegos."
+
+#~ msgid "OSS"
+#~ msgstr "OSS"
+
+#~ msgid "ALSA"
+#~ msgstr "ALSA"
+
+#~ msgid "Automatically kill applications using soundcard when needed"
+#~ msgstr ""
+#~ "Cerrar aplicaciones que usen la tarjeta de sonido cuando se necesite."
+
+#~ msgid ""
+#~ "Your computer is connected to several networks. Check in the global "
+#~ "parameters if Linphone uses the one that you want."
+#~ msgstr ""
+#~ "Tu ordenador esta conectado a varias redes. Revisa en los Parametros "
+#~ "globales si Linphone usa la que necesitas."
+
+#~ msgid ""
+#~ "Linphone failed to open the sound device. See the README file included in "
+#~ "the distribution for details."
+#~ msgstr ""
+#~ "Linphone fallo al abrir el dispositivo de sonido. Vea el archivo README "
+#~ "incluido en la distribucion para mas detalles."
+
+#~ msgid "Interface not found."
+#~ msgstr "Interfaz no encontrada."
+
+#~ msgid "Warning"
+#~ msgstr "Atencion"
+
+#~ msgid ""
+#~ "Linphone cannot open the sound device. It may be caused by other programs "
+#~ "using it. Do you want linphone to kill these programs (esd or artsd) ?"
+#~ msgstr ""
+#~ "Linphone no puede abrir el dispositivo de sonido. Puede deberse a que "
+#~ "otros programaslo esten usando. ¿ Quiere que Linphone cierre esos "
+#~ "programas (esd o artsd) ?"
+
+#~ msgid "Linphone shutdowns..."
+#~ msgstr "Linphone esta terminando..."
+
+#~ msgid ""
+#~ "Please, wait a few seconds untils linphone unregisters your sip addess "
+#~ "from registrar server..."
+#~ msgstr ""
+#~ "Por favor, espere unos segundos hasta que Linphone cancele el registro de "
+#~ "su direccion SIP en el servidor de registros..."
+
+#~ msgid "Bad formuled sip address."
+#~ msgstr "Direccion SIP mal escrita."
+
+#~ msgid "Couldn't create pixmap from file: %s"
+#~ msgstr "No se pudo crear pixmap desde el archivo: %s"
+
+#~ msgid ""
+#~ "Linphone did not detect any valid network interface. If you use a "
+#~ "temporary internet connection, please connect and then run linphone again."
+#~ msgstr ""
+#~ "Linphone no detecto ninguna interfaz de red valida. Si usas una conexion "
+#~ "temporal a Internet, por favor conecta y vuelve a ejecutar Linphone."
+
+#~ msgid "List of network interfaces on your system."
+#~ msgstr "Lista de interfaces de red en tu sistema."
+
+#~ msgid ""
+#~ "RTP est le mode de transport de la voix. Modifier ces paramètres pour "
+#~ "tenter d'améliorer la qualité de la communication si celle-ci est "
+#~ "dégradée."
+#~ msgstr ""
+#~ "RTP es el modelo de transporte de la voz. Modifica estos parametros para "
+#~ "intentar mejorar la calidad de la comunicacion, si es que.es mala."
+
+#~ msgid "Use rtp port:"
+#~ msgstr "Puerto RTP:"
+
+#~ msgid ""
+#~ "Les codecs ou vocodeurs sont les algorithmes utilisés pour compresser la "
+#~ "voix."
+#~ msgstr ""
+#~ "Los codecs o codificadores/decodificadores son los algoritmos usados para "
+#~ "comprimir la voz."
+
+#~ msgid ""
+#~ "Vous pouvez ajuster avec cet onglet des paramètre liés à votre carte son."
+#~ msgstr "Puede modificar estos parametros a su gusto."

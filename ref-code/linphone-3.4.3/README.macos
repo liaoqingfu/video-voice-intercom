@@ -1,0 +1,83 @@
+**********************************
+* Compiling linphone on macos X  *
+**********************************
+
+
+You have two options: using gtk-osx framework (http://gtk-osx.sourceforge.net/) which results in a Linphone GTK well integrated into Mac OS
+environment. The other option is using MacPort, in which case Linphone will run as an X11 application inside Mac OS.
+
+At the date of March 25, 2011, no video support is available yet.
+
+
+Compiling using gtk-osx
+=======================
+
+Requirements:
+* gtk-osx framework
+* xcode (for gcc)
+* macport (to retrieve dependencies easily, such as libosip2, libeXosip2, libspeex
+* linphone git tree
+
+Steps:
+
+- Install gtk-osx jhbuild environment as described at
+http://sourceforge.net/apps/trac/gtk-osx/wiki/Build
+It will build gtk for osx as well as many dependencies.
+
+- Install ige-mac-bundler following instructions here (git clone method is preferred):
+http://sourceforge.net/apps/trac/gtk-osx/wiki/Bundle
+
+- Install some linphone dependencies with macports
+ $ port install speex-dev
+ $ port install osip2
+ $ port install eXosip2
+
+- Now you can compile linphone
+
+$ jhbuild shell
+$ PKG_CONFIG_PATH=$HOME/gtk/inst/lib/pkgconfig:/opt/local/lib/pkgconfig/ ./configure --disable-video --disable-strict --with-gsm=/opt/local
+#assuming you have gsm installed in /opt/local. However gsm is optional.
+$ make
+
+- You can generate a bundle using
+$ make bundle
+
+The bundle is generated in ~/Desktop/Linphone and can safely be exported to other places and computers.
+
+
+Compiling using MacPort
+=======================
+
+This procedure works for audio, video still not fully supported.
+It was tested on macos X (leopard) on september 2009.
+
+Requirements:
+* xcode (for gcc)
+* macport (GNU porting project)
+* svn or git checkout'd linphone tree.
+
+Steps:
+* install with the 'port install' command the following dependencies
+	- automake
+	- autoconf
+	- libtool
+	- gettext
+	- intltool
+	- gtk2
+	- speex-dev
+	- osip2
+	- eXosip2
+	
+* add /opt/local/bin to your PATH by editing (or creating) ~/.profile, logout and login again for changes to take effect
+
+* within linphone source directory, run ./autogen.sh
+* run 
+	./configure --prefix=/opt/local --disable-video --with-readline=none && make
+	(note: we disable readline for linphonec because it appears to hang at this time)
+* install to /opt/local
+	sudo make install 
+
+
+
+
+
