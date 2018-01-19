@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BC557D8D-1808-412B-8A07-CA18D9045495}</ProjectGuid>
+    <RootNamespace>SipAgent</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ProjectDir);ThirdPart\xmlrpc\src;ThirdPart\tinyxml;ThirdPart\rvsip\include\sip;ThirdPart\rvsip\include\common;ThirdPart\rvsip\include\sdp;ThirdPart\rvsip\include\ads;ThirdPart\sip;ThirdPart\threadpool;ThirdPart\log;ThirdPart\md5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_WINDOWS;RV_SDP_CHECK_BAD_SYNTAX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Ws2_32.lib;xmlrpc.lib;ads.lib;common.lib;sdp.lib;sip.lib;tinyxml.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>ThirdPart\rvsip\lib;ThirdPart\xmlrpc\Debug;ThirdPart\tinyxml\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(ProjectDir);ThirdPart\xmlrpc\src;ThirdPart\tinyxml;ThirdPart\rvsip\include\sip;ThirdPart\rvsip\include\common;ThirdPart\rvsip\include\sdp;ThirdPart\rvsip\include\ads;ThirdPart\sip;ThirdPart\threadpool;ThirdPart\log;ThirdPart\md5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_WINDOWS;RV_SDP_CHECK_BAD_SYNTAX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Ws2_32.lib;xmlrpc.lib;ads.lib;common.lib;sdp.lib;sip.lib;tinyxml.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>ThirdPart\rvsip\lib;ThirdPart\xmlrpc\Release;ThirdPart\tinyxml\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Utility\AsynPolicy.cpp" />
+    <ClCompile Include="Utility\CharacterSet.cpp" />
+    <ClCompile Include="Utility\Format.cpp" />
+    <ClCompile Include="Utility\RpcCmd.cpp" />
+    <ClCompile Include="Utility\TaskTimer.cpp" />
+    <ClCompile Include="Utility\utility.cpp" />
+    <ClCompile Include="Utility\XmlParser.cpp" />
+    <ClCompile Include="Config\ProxyConfig.cpp" />
+    <ClCompile Include="GlobalCtrl.cpp" />
+    <ClCompile Include="SipAgent.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="unittest.cpp" />
+    <ClCompile Include="ThirdPart\log\log4z.cpp" />
+    <ClCompile Include="ThirdPart\md5\md5driver.cpp" />
+    <ClCompile Include="ThirdPart\threadpool\lock.cpp" />
+    <ClCompile Include="ThirdPart\threadpool\ThreadPool.cpp" />
+    <ClCompile Include="ThirdPart\sip\BasicStandard.cpp" />
+    <ClCompile Include="ThirdPart\sip\BlockPattern.cpp" />
+    <ClCompile Include="ThirdPart\sip\GBStandard.cpp" />
+    <ClCompile Include="ThirdPart\sip\HostDomain.cpp" />
+    <ClCompile Include="ThirdPart\sip\MansRtsp.cpp" />
+    <ClCompile Include="ThirdPart\sip\RvSdp.cpp" />
+    <ClCompile Include="ThirdPart\sip\SipHandleBase.cpp" />
+    <ClCompile Include="ThirdPart\sip\SipMessage.cpp" />
+    <ClCompile Include="ThirdPart\sip\SipMgr.cpp" />
+    <ClCompile Include="ThirdPart\sip\SipModule.cpp" />
+    <ClCompile Include="AgentServer\BcAdaptor.cpp" />
+    <ClCompile Include="AgentServer\Directory.cpp" />
+    <ClCompile Include="AgentServer\PlayBack.cpp" />
+    <ClCompile Include="AgentServer\RealPlay.cpp" />
+    <ClCompile Include="AgentServer\SipHeartBeat.cpp" />
+    <ClCompile Include="AgentServer\SipPtzCtrl.cpp" />
+    <ClCompile Include="AgentServer\SipRegister.cpp" />
+    <ClCompile Include="AgentServer\StreamMgr.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Utility\AsynPolicy.h" />
+    <ClInclude Include="Utility\CharacterSet.h" />
+    <ClInclude Include="Utility\Format.h" />
+    <ClInclude Include="Utility\RpcCmd.h" />
+    <ClInclude Include="Utility\TaskTimer.h" />
+    <ClInclude Include="Utility\utility.h" />
+    <ClInclude Include="Utility\XmlParser.h" />
+    <ClInclude Include="Config\ProxyConfig.h" />
+    <ClInclude Include="GlobalCtrl.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="unittest.h" />
+    <ClInclude Include="ThirdPart\log\log4z.h" />
+    <ClInclude Include="ThirdPart\md5\md5driver.hpp" />
+    <ClInclude Include="ThirdPart\threadpool\lock.h" />
+    <ClInclude Include="ThirdPart\threadpool\ThreadPool.h" />
+    <ClInclude Include="ThirdPart\sip\BasicStandard.h" />
+    <ClInclude Include="ThirdPart\sip\BlockPattern.h" />
+    <ClInclude Include="ThirdPart\sip\deelx.h" />
+    <ClInclude Include="ThirdPart\sip\GBStandard.h" />
+    <ClInclude Include="ThirdPart\sip\HostDomain.h" />
+    <ClInclude Include="ThirdPart\sip\MansRtsp.h" />
+    <ClInclude Include="ThirdPart\sip\RvSdp.h" />
+    <ClInclude Include="ThirdPart\sip\SipDef.h" />
+    <ClInclude Include="ThirdPart\sip\SipError.h" />
+    <ClInclude Include="ThirdPart\sip\SipHandleBase.h" />
+    <ClInclude Include="ThirdPart\sip\SipMessage.h" />
+    <ClInclude Include="ThirdPart\sip\SipMgr.h" />
+    <ClInclude Include="ThirdPart\sip\SipModule.h" />
+    <ClInclude Include="AgentServer\BcAdaptor.h" />
+    <ClInclude Include="AgentServer\Directory.h" />
+    <ClInclude Include="AgentServer\PlayBack.h" />
+    <ClInclude Include="AgentServer\PlaybackDef.h" />
+    <ClInclude Include="AgentServer\RealPlay.h" />
+    <ClInclude Include="AgentServer\SipHeartBeat.h" />
+    <ClInclude Include="AgentServer\SipPtzCtrl.h" />
+    <ClInclude Include="AgentServer\StreamMgr.h" />
+    <ClInclude Include="BcAdaptor\Adaptor.h" />
+    <ClInclude Include="BcAdaptor\adaptorCommon.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

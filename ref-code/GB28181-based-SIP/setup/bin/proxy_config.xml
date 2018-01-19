@@ -1,0 +1,64 @@
+<proxy_cfg>
+    <module_directory />
+    <module_main>
+        <!-- 蓝星平台ip地址 -->
+        <serverIp>192.168.10.1</serverIp>
+        <!-- 蓝星平台端口 -->
+        <serverPort>8000</serverPort>
+        <!-- 蓝星平台登陆用户名，密码 -->
+        <loginName>admin</loginName>
+        <loginPassword>admin</loginPassword>
+        <IsReSendDir>1</IsReSendDir>
+    </module_main>
+    <module_sip>
+    	<!-- SIP28181 本级端口 -->
+        <sip_localPort>5060</sip_localPort>
+        <!-- SIP28181 本级ip地址 -->
+        <sip_localIp>35.34.9.201</sip_localIp>
+        <!-- SIP28181 上级平台端口 -->
+        <sip_remotePort>7100</sip_remotePort>
+        <!-- SIP28181 上级平台ip地址 -->
+        <sip_remoteIp>35.24.252.111</sip_remoteIp>
+        <!-- SIP28181 本级中心平台编码 -->
+        <sip_localUser>35010002552459000001</sip_localUser>
+        <!-- SIP28181 上级中心平台编码 -->
+        <sip_remoteUser>35010000002001000010</sip_remoteUser>
+        <!-- SIP28181 本级域名 -->
+        <sip_auth_User>350105000000</sip_auth_User>
+        <!-- SIP28181 注册鉴权信息 -->
+        <sip_auth_Password>12345678</sip_auth_Password>
+        <sip_auth_realm>bluestar.com.cn</sip_auth_realm>
+        <sip_auth_nonce>e01691aae1f836834f504b5936bdb828</sip_auth_nonce>
+        <sip_auth_sdomain>sip:SimpleDomain@192.168.8.251</sip_auth_sdomain>
+        <sip_auth_opaque>bluestar</sip_auth_opaque>
+        <!-- SIP28181 平台互联心跳时间 -->
+        <sip_HeartBeatTime>60</sip_HeartBeatTime>
+        <!-- SIP28181 平台互联register保活时间 -->
+        <sip_RegExpiresTime>300</sip_RegExpiresTime>
+    </module_sip>
+    <sip_domain>
+        <item>
+        	<!-- SIP28181 上级中心平台域名解析 -->
+            <domain_name>3501000000</domain_name>
+            <!-- SIP28181 上级中心平台编码 -->
+            <sip_user>35010000002001000010</sip_user>
+            <sip_host>35.24.252.111</sip_host>
+            <sip_port>7100</sip_port>
+        </item>
+    </sip_domain>
+    <module_alarm>
+        <alarm_serverPort>5140</alarm_serverPort>
+        <alarm_serverIp>192.168.50.229</alarm_serverIp>
+        <alarm_localReceivePort>5140</alarm_localReceivePort>
+    </module_alarm>
+    <module_live>
+        <proxy_streamerIp>192.168.8.169</proxy_streamerIp>
+        <proxy_streamerCmdPort>3721</proxy_streamerCmdPort>
+        <proxy_streamerHeartBeatPort>8101</proxy_streamerHeartBeatPort>
+    </module_live>
+    <module_playback>
+        <playback_port>7021</playback_port>
+        <playback_ip>192.168.8.251</playback_ip>
+        <playback_rtsp_addr>192.168.8.251:7111</playback_rtsp_addr>
+    </module_playback>
+</proxy_cfg>

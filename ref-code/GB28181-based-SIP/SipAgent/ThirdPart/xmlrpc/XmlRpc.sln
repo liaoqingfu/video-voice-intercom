@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FileClient", "Test\FileClient.vcproj", "{DC54E9A6-6B6C-4238-BB74-7E73061CDFBD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9D491F6E-147B-40CD-A0CC-0A459DEA6D53} = {9D491F6E-147B-40CD-A0CC-0A459DEA6D53}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloClient", "Test\HelloClient.vcproj", "{D0E5D5B8-FCE5-4520-BD68-EEAF79F38031}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9D491F6E-147B-40CD-A0CC-0A459DEA6D53} = {9D491F6E-147B-40CD-A0CC-0A459DEA6D53}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloServer", "Test\HelloServer.vcproj", "{8DA9C2C2-043E-4851-B364-B3002948FB93}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9D491F6E-147B-40CD-A0CC-0A459DEA6D53} = {9D491F6E-147B-40CD-A0CC-0A459DEA6D53}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xmlrpc", "xmlrpc.vcproj", "{9D491F6E-147B-40CD-A0CC-0A459DEA6D53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC54E9A6-6B6C-4238-BB74-7E73061CDFBD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DC54E9A6-6B6C-4238-BB74-7E73061CDFBD}.Release|Win32.ActiveCfg = Release|Win32
+		{D0E5D5B8-FCE5-4520-BD68-EEAF79F38031}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D0E5D5B8-FCE5-4520-BD68-EEAF79F38031}.Release|Win32.ActiveCfg = Release|Win32
+		{8DA9C2C2-043E-4851-B364-B3002948FB93}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8DA9C2C2-043E-4851-B364-B3002948FB93}.Release|Win32.ActiveCfg = Release|Win32
+		{9D491F6E-147B-40CD-A0CC-0A459DEA6D53}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9D491F6E-147B-40CD-A0CC-0A459DEA6D53}.Debug|Win32.Build.0 = Debug|Win32
+		{9D491F6E-147B-40CD-A0CC-0A459DEA6D53}.Release|Win32.ActiveCfg = Release|Win32
+		{9D491F6E-147B-40CD-A0CC-0A459DEA6D53}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

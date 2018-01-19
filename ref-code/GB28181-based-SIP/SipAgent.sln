@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SipAgent", "SipAgent\SipAgent.vcproj", "{BC557D8D-1808-412B-8A07-CA18D9045495}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xmlrpc", "SipAgent\ThirdPart\xmlrpc\XmlRpc.vcproj", "{9D491F6E-147B-40CD-A0CC-0A459DEA6D53}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tinyxml", "SipAgent\ThirdPart\tinyxml\tinyxml.vcproj", "{9C4A7D6E-0993-401E-801A-96A8DB52C6EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC557D8D-1808-412B-8A07-CA18D9045495}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BC557D8D-1808-412B-8A07-CA18D9045495}.Debug|Win32.Build.0 = Debug|Win32
+		{BC557D8D-1808-412B-8A07-CA18D9045495}.Release|Win32.ActiveCfg = Release|Win32
+		{BC557D8D-1808-412B-8A07-CA18D9045495}.Release|Win32.Build.0 = Release|Win32
+		{9D491F6E-147B-40CD-A0CC-0A459DEA6D53}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9D491F6E-147B-40CD-A0CC-0A459DEA6D53}.Debug|Win32.Build.0 = Debug|Win32
+		{9D491F6E-147B-40CD-A0CC-0A459DEA6D53}.Release|Win32.ActiveCfg = Release|Win32
+		{9D491F6E-147B-40CD-A0CC-0A459DEA6D53}.Release|Win32.Build.0 = Release|Win32
+		{9C4A7D6E-0993-401E-801A-96A8DB52C6EA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9C4A7D6E-0993-401E-801A-96A8DB52C6EA}.Debug|Win32.Build.0 = Debug|Win32
+		{9C4A7D6E-0993-401E-801A-96A8DB52C6EA}.Release|Win32.ActiveCfg = Release|Win32
+		{9C4A7D6E-0993-401E-801A-96A8DB52C6EA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

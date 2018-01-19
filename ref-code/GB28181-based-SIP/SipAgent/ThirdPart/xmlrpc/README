@@ -1,0 +1,9 @@
+This is an implementation of XML-RPC specifications called xmlrpc++ 
+written by Chris Morley from the Internet.
+The soure code was heavily changed to fit for our 
+current project, most of which was marked with ">>>>>BSTAR" and "<<<<<BSTAR".
+
+
+Enjoy.
+--Tan Feng <tanf@bstar.com.cn>
+
